@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "Gemmi": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "API_BASE_URL": "https://generativelanguage.googleapis.com/v1/models/gemini-pro",
+        "API_KEY": "AIzaSyDdhqJRNJUkoYxImy3ughkwTaAL4YF9z0E"
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "API_BASE_URL": "https://generativelanguage.googleapis.com/v1/models/gemini-pro",
+        "API_KEY": "AIzaSyDdhqJRNJUkoYxImy3ughkwTaAL4YF9z0E"
+      }
+    }
+  }
+}
